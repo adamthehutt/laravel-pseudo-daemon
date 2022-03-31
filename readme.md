@@ -10,7 +10,7 @@ A Laravel package to mimic daemons via scheduled commands without having to chan
 
 You can install the package via composer:
 
-`composer require resolute/laravel-pseudo-daemon`
+`composer require Hammerstone/laravel-pseudo-daemon`
 
 # Basic Usage
 
@@ -19,7 +19,7 @@ Add the `IsPseudoDaemon` trait to any of your Laravel Commands and call `runAsPs
 ```php
 class TestCommand extends Command
 {
-    use \Resolute\PseudoDaemon\IsPseudoDaemon;
+    use \Hammerstone\PseudoDaemon\IsPseudoDaemon;
 
     public function handle()
     {

@@ -11,7 +11,7 @@
          processIsolation="false"
          stopOnFailure="false">
     <testsuites>
-        <testsuite name="Resolute\\PseudoDaemon Test Suite">
+        <testsuite name="Hammerstone\\PseudoDaemon Test Suite">
             <directory>tests</directory>
         </testsuite>
     </testsuites>

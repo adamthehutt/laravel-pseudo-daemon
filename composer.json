@@ -1,5 +1,5 @@
 {
-    "name": "resolute/laravel-pseudo-daemon",
+    "name": "hammerstone/laravel-pseudo-daemon",
     "description": "A Laravel package to mimic daemons via scheduled commands without having to change server configuration.",
     "type": "library",
     "license": "MIT",
@@ -20,18 +20,18 @@
     },
     "autoload": {
         "psr-4": {
-            "Resolute\\PseudoDaemon\\": "src/"
+            "Hammerstone\\PseudoDaemon\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Resolute\\PseudoDaemon\\Tests\\": "tests/"
+            "Hammerstone\\PseudoDaemon\\Tests\\": "tests/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Resolute\\PseudoDaemon\\PseudoDaemonServiceProvider"
+                "Hammerstone\\PseudoDaemon\\PseudoDaemonServiceProvider"
             ]
         }
     }

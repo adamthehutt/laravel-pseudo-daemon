@@ -3,11 +3,11 @@
  * @author Aaron Francis <aarondfrancis@gmail.com|https://twitter.com/aarondfrancis>
  */
 
-namespace Resolute\PseudoDaemon\Tests\Support;
+namespace Hammerstone\PseudoDaemon\Tests\Support;
 
 
 use Illuminate\Console\Command;
-use Resolute\PseudoDaemon\IsPseudoDaemon;
+use Hammerstone\PseudoDaemon\IsPseudoDaemon;
 
 class TestCommand extends Command
 {

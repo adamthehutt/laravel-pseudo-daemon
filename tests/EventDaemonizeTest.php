@@ -3,12 +3,12 @@
  * @author Aaron Francis <aarondfrancis@gmail.com|https://twitter.com/aarondfrancis>
  */
 
-namespace Resolute\PseudoDaemon\Tests;
+namespace Hammerstone\PseudoDaemon\Tests;
 
 use Illuminate\Console\Scheduling\CacheEventMutex;
 use Illuminate\Console\Scheduling\Event;
 use Orchestra\Testbench\TestCase;
-use Resolute\PseudoDaemon\PseudoDaemonServiceProvider;
+use Hammerstone\PseudoDaemon\PseudoDaemonServiceProvider;
 
 class EventDaemonizeTest extends TestCase
 {

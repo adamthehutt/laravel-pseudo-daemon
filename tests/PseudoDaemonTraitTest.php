@@ -3,13 +3,13 @@
  * @author Aaron Francis <aarondfrancis@gmail.com|https://twitter.com/aarondfrancis>
  */
 
-namespace Resolute\PseudoDaemon\Tests;
+namespace Hammerstone\PseudoDaemon\Tests;
 
 use Illuminate\Support\Carbon;
 use Mockery;
 use Orchestra\Testbench\TestCase;
-use Resolute\PseudoDaemon\PseudoDaemonControl;
-use Resolute\PseudoDaemon\Tests\Support\TestCommand;
+use Hammerstone\PseudoDaemon\PseudoDaemonControl;
+use Hammerstone\PseudoDaemon\Tests\Support\TestCommand;
 
 class PseudoDaemonTraitTest extends TestCase
 {

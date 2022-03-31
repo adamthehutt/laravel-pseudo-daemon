@@ -3,7 +3,7 @@
  * @author Aaron Francis <aarondfrancis@gmail.com|https://twitter.com/aarondfrancis>
  */
 
-namespace Resolute\PseudoDaemon;
+namespace Hammerstone\PseudoDaemon;
 
 use Illuminate\Support\Carbon;
 use Illuminate\Support\Str;
