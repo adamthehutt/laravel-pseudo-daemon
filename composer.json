@@ -1,5 +1,5 @@
 {
-    "name": "hammerstone/laravel-pseudo-daemon",
+    "name": "adamthehutt/laravel-pseudo-daemon",
     "description": "A Laravel package to mimic daemons via scheduled commands without having to change server configuration.",
     "type": "library",
     "license": "MIT",
@@ -11,10 +11,10 @@
         }
     ],
     "require": {
-        "illuminate/support": "^7.0|^8.0|^9.0"
+        "illuminate/support": "^7.0|^8.0|^9.0|^10.0"
     },
     "require-dev": {
-        "orchestra/testbench": "^5.0|^6.0|^7.0",
+        "orchestra/testbench": "^5.0|^6.0|^7.0|^8.0",
         "mockery/mockery": "^1.3.3",
         "phpunit/phpunit": "^8.5.23|^9.5"
     },
