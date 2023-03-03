@@ -123,13 +123,8 @@ trait IsPseudoDaemon
 
     public function currentForgeEnvoyerRelease()
     {
-        $pwd = trim(shell_exec('pwd'));
-
-        // If the string matches the pattern "/home/forge/[example.com]/current" then
-        // we're running on Laravel Forge. If that's the case, then we'll see what
-        // the real directory is, meaning a new deploy will trigger a restart.
-        if (Str::startsWith($pwd, '/home/forge/') && Str::endsWith($pwd, '/current')) {
-            return shell_exec('readlink ' . escapeshellarg($pwd));
+        if ($realPath = realpath(base_path() . '/../../current')) {
+            return $realPath;
         }
     }
 
